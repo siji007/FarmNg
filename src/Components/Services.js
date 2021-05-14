@@ -32,17 +32,11 @@ class Services extends React.Component{
                         </p>
                     </div>
                 </div>
-
-                
-            
-            
             </div> 
 
             <div>
                 <div className="mt-8 text-white" id="wrapper" >
-                    <h1 className="text-center pt-10">Services we offer</h1>
-                    
-                
+                    <h1 className="text-center pt-10 text-3xl">Services we offer</h1>
                         <div className="flex container justify-around mt-8">
                             <div className="">
                                 <h1 id="serviceHeader" className="font-bold text-3xl">Planting</h1>
@@ -64,7 +58,6 @@ class Services extends React.Component{
                             </div>
                             <div className="">
                                 <h1 id="serviceHeader" className="font-bold text-3xl">Vertinary</h1>
-
                                 <p className="text-xl">We ensure that animals are well taken care of to prevent animal diseases or treating the ones that are infected</p>
                             </div>
                         </div>

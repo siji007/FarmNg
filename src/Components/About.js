@@ -38,7 +38,7 @@ class About extends React.Component{
             </div>
 
 
-            <div className="bg-gray-400 pb-8">
+            <div className="bg-gray-200 pb-24">
             <div id="contentDiv" className="row mt-8  mr-auto ml-auto">
                 <div className = "col-lg-4">
                     <h1 className="text-success text-2xl mt-8">Why Choose Us?</h1>

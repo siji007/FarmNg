@@ -35,15 +35,15 @@ const NavBar = () => {
                 </div>
             </header> */}
             {/* actions in the sysytem that are not related to payment(entity) approval */}
-            <Navbar bg="light px-10 shadow-lg" expand="lg">
+            <Navbar bg="white px-10 shadow-lg" expand="lg">
                 <Navbar.Brand href="#home">FARM NG</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto py-2 text-2xl">
-                        <Nav.Link><Link to="/">Home</Link></Nav.Link>
-                        <Nav.Link><Link to="/about">About</Link></Nav.Link>
-                        <Nav.Link><Link to="/services">Services</Link></Nav.Link>
-                        <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
+                        <Nav.Link><Link style={{textDecoration:'none'}} to="/">Home</Link></Nav.Link>
+                        <Nav.Link><Link style={{textDecoration:'none'}} to="/about">About</Link></Nav.Link>
+                        <Nav.Link><Link style={{textDecoration:'none'}} to="/services">Services</Link></Nav.Link>
+                        <Nav.Link><Link style={{textDecoration:'none'}} to="/contact">Contact</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
