@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"); */
 
 #homeWrappper{
     position:relative;
@@ -23,7 +23,7 @@
     z-index:2;
 }
 #headerText{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 120px;
     font-family: bold;
     font-weight: 300;

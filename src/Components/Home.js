@@ -9,7 +9,7 @@ class Home extends React.Component{
             <div className="mt-0">
                 <div className="text-white " id="homeWrappper">
                     <h1 className="font-bold " id="headerText">Experience True <br/> Agriculture</h1>
-                    <button id="readMoreBtn" className="mt-8 btn text-success bg-white "><Link to="/about">Read More</Link></button>
+                    <button id="readMoreBtn" className="mt-8 btn text-success bg-white "><Link style={{textDecoration:'none'}} to="/about">Read More</Link></button>
                 </div>
             </div>
             <div className="container mt-16">
@@ -17,7 +17,7 @@ class Home extends React.Component{
                     <div className="col-lg-7">
                         <h1 className="font-bold text-4xl">A NEW WAY TO INVEST IN AGRICULTURE</h1>
                         <p id="introText" className="text-xl mt-4">Agriculture has always been a great form of investment and another form of earning a living through different ways.There are tons of new ideas coming up everyday on how to generate revenue through it</p>
-                        <button className="mb-3 btn btn-success text-white mt-8">Read more</button>
+                        <button className="mb-3 btn btn-success text-white mt-8"><Link style={{textDecoration:'none'}} to="/about">Read more</Link></button>
                     
                     </div>
 

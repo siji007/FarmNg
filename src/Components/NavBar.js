@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "../css/Navbar.css"
 import Navbar from 'react-bootstrap/NavBar'
 import Nav from 'react-bootstrap/Nav'
-import Carousel from 'react-bootstrap/Carousel'
+// import Carousel from 'react-bootstrap/Carousel'
 const NavBar = () => {
     return(
         <Fragment>
@@ -37,7 +37,7 @@ const NavBar = () => {
             {/* actions in the sysytem that are not related to payment(entity) approval */}
             <Navbar bg="white px-10 shadow-lg" expand="lg">
                 <Navbar.Brand href="#home">FARM NG</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav " className="bg-success" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto py-2 text-2xl">
                         <Nav.Link><Link style={{textDecoration:'none'}} to="/">Home</Link></Nav.Link>
