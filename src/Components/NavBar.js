@@ -1,8 +1,10 @@
 import React,{Fragment} from 'react'
 import { Link } from 'react-router-dom'
 import "../css/Navbar.css"
-import Navbar from 'react-bootstrap/NavBar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/NavBar';
+import Nav from 'react-bootstrap/Nav';
+import 'react-bootstrap'
+// import NavLink from 'react-bootstrap/NavLink';
 // import Carousel from 'react-bootstrap/Carousel'
 const NavBar = () => {
     return(
