@@ -5,7 +5,7 @@ class Services extends React.Component{
     render(){
         return(
             <Fragment>
-            <div className="mt-16 container">
+            <div className="mt-16 pt-20 container">
                 <h1 className="text-center font-bold text-4xl ">We Give You The Best In This Field</h1>
                 <p className="text-2xl text-center mt-8">Bringing relieable and standard services to you at a reasonable rate</p>
                 

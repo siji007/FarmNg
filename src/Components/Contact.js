@@ -5,7 +5,7 @@ class Contact extends React.Component{
     render(){
         return(
             <Fragment>
-            <div className="row mr-auto ml-auto">
+            <div className="row mr-auto ml-auto pt-20">
                 <div className="col-lg-12 col-md-12 col-12 col-sm-12">
                     <div className="min-h-screen py-10 flex flex-col ">
                         <form id="reportForm" className="p-12 bg-white mx-auto my-10 shadow-md rounded" action="#">

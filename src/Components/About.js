@@ -6,7 +6,7 @@ class About extends React.Component{
         return(
             <Fragment>
             <div className="mt-10 container">
-                <h1 className="text-xl">About Us</h1>
+                <h1 className="text-xl pt-20">About Us</h1>
                 <p className="font-bold text-4xl mt-10">Leading Africa company in redenring<br/> agricultural services</p>
 
                 <p className="text-xl mt-4">Farmg ng brings provides easy and<br/> efficient way of taking good care of<br/> your farm and lot more.</p>

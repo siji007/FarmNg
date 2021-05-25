@@ -1,12 +1,19 @@
 import React,{Fragment} from 'react'
 import { Link } from 'react-router-dom'
 import "../css/Navbar.css"
-import Navbar from 'react-bootstrap/NavBar';
-import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/NavBar';
+// import Nav from 'react-bootstrap/Nav';
 import 'react-bootstrap'
 // import NavLink from 'react-bootstrap/NavLink';
 // import Carousel from 'react-bootstrap/Carousel'
 const NavBar = () => {
+    function clickham(){
+        let hamburger = document.querySelector(".harmburger");
+        let navLinks = document.querySelector(".nav-links");
+        hamburger.addEventListener("click",()=>{
+            navLinks.classList.toggle("open")
+        })
+    }
     return(
         <Fragment>
             {/* <header id="site-header" className="main-header fixed-top">
@@ -36,8 +43,9 @@ const NavBar = () => {
                     </nav>
                 </div>
             </header> */}
+
             {/* actions in the sysytem that are not related to payment(entity) approval */}
-            <Navbar bg="white px-10 shadow-lg" expand="lg">
+            {/* <Navbar bg="white px-10 shadow-lg" expand="lg">
                 <Navbar.Brand href="#home">FARM NG</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav " className="bg-success" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -48,7 +56,24 @@ const NavBar = () => {
                         <Nav.Link><Link style={{textDecoration:'none'}} to="/contact">Contact</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
+
+            <div id="navDiv" className="">
+                <nav className="fixed-top ">
+                    <div class="harmburger" onClick={clickham}>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <ul className="nav-links text-lg">
+                        <li className=""><Link style={{textDecoration:'none'}} to="/">Home</Link></li>
+                        <li><Link style={{textDecoration:'none'}} to="/about">About</Link></li>
+                        <li><Link style={{textDecoration:'none'}} to="/services">Services</Link></li>  
+                        <li><Link style={{textDecoration:'none'}} to="/contact">Contact</Link></li>             
+                    </ul>
+                </nav>
+            </div>
+
         </Fragment>
     )
 };

@@ -6,7 +6,7 @@ class Home extends React.Component{
     render(){
         return(
             <Fragment>
-            <div className="mt-0">
+            <div className="mt-16">
                 <div className="text-white " id="homeWrappper">
                     <h1 className="font-bold " id="headerText">Experience True <br/> Agriculture</h1>
                     <button id="readMoreBtn" className="mt-8 btn text-success bg-white "><Link style={{textDecoration:'none'}} to="/about">Read More</Link></button>
