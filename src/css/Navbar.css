@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -19,8 +19,7 @@
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
-}
-
+} */
 
 
 nav{
@@ -28,6 +27,12 @@ nav{
   background: #91eb83;
   /* margin-bottom: 2px solid grey; */
 }
+/* .logo{
+  /* position: absolute; 
+  height:100%;
+  width: 40%;
+  margin-top: 3vh;
+} */
 #navDiv{
   /* border-bottom: 1px solid white; */
 }
@@ -43,7 +48,7 @@ nav{
 .nav-links li a{
   color:white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
@@ -60,6 +65,7 @@ nav{
     z-index: 2;
     /* transform: translate(-5%,-50%); */
   }
+  
   .line{
     width: 30px;
     height: 3px;

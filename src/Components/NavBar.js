@@ -59,13 +59,16 @@ const NavBar = () => {
             </Navbar> */}
 
             <div id="navDiv" className="">
-                <nav className="fixed-top ">
+                <nav className="fixed-top">
+                    
                     <div class="harmburger" onClick={clickham}>
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
                     </div>
+                    
                     <ul className="nav-links text-lg">
+                        
                         <li className=""><Link style={{textDecoration:'none'}} to="/">Home</Link></li>
                         <li><Link style={{textDecoration:'none'}} to="/about">About</Link></li>
                         <li><Link style={{textDecoration:'none'}} to="/services">Services</Link></li>  

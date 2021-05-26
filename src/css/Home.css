@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-image:url("../images/banner1.jpg");
     background-size: cover;
+    margin-top: 38px;
 }
 
 #homeWrappper:after{
@@ -24,11 +25,12 @@
 }
 #headerText{
     /* font-family: 'Open Sans', sans-serif; */
-    font-size: 120px;
+    font-size: 110px;
     font-family: bold;
     font-weight: 300;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 40px;
+    margin-top: 40px;
 }
 #readMoreBtn{
     margin-left: 40px;
@@ -40,10 +42,12 @@
     border-radius: 30px;
 }
 #introText{
-    font-family: ;
+    /* font-family: ; */
 }
 @media(max-width:991px) {
     #homeWrappper{
+        margin-top: 26px;
+        padding-top: 30px;
         position:relative;
         height:400px;
         background-repeat: no-repeat;
