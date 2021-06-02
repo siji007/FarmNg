@@ -46,7 +46,7 @@ class About extends React.Component{
                 </div>
 
                 <div className="col-lg-4 text-xl">
-                <p className="mt-20">Farm Ng is built to provide quality and 
+                <p className="mt-20 text-left">Farm Ng is built to provide quality and 
                 relieable services to fellow agriculturers.
                 It also deal with agricultural products such as
                 agricultural produce (those of plant and animal origin),
